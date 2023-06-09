@@ -1,0 +1,49 @@
+tr:nth-child(odd) {
+    background-color: #00a0d2;
+    border-bottom: 1px solid #dddddd;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    color: black;
+}
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+#update, #delete{
+    background-color: #00a0d2;
+    text-align: center;
+}
+
+#update:hover{
+    background-color:orange;
+}
+#delete:hover{
+    background-color:red;
+}
+#container{
+    width: 80%;
+    margin-left: 19%;
+    margin-top: -19%;
+}
+#table{
+    margin-right: 2%;
+    width: 100%;
+    position: sticky;
+}
+table thead{
+    padding: 50%;
+}
